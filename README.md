@@ -1,8 +1,12 @@
 
 #Customer Classification System
 
-This code classifies customers into two categories: "Yes" and "No", based on their rating and salary. The input parameters are the number of clusters (k), the rating of the customer, and the salary of the customer. The code first calculates the distance between the customer and each of the data points in the dataset. The data points are then ranked in ascending order of distance, and the top k data points are used to classify the customer. If the majority of the top k data points are "Yes", then the customer is classified as "Yes". Otherwise, the customer is classified as "No".
+This code classifies customers into two categories: "Yes" and "No", based on their rating and salary. 
+The input parameters are the number of clusters (k), the rating of the customer, and the salary of the customer.
+The code first calculates the distance between the customer and each of the data points in the dataset. The data points are then ranked in ascending order of distance, and the top k data points are used to classify the customer.
+If the majority of the top k data points are "Yes", then the customer is classified as "Yes". Otherwise, the customer is classified as "No".
 The code also includes a function called plotter(), which plots the data points in the dataset and the input customer. This function can be used to visualize the customer classification process.
+
 To run the code, you will need to install the following Python libraries:
     • math
     • pandas
